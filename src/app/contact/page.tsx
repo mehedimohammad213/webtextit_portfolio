@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Start a software project with Webtextit.",
+  description: "Start a software project with WebText IT.",
   alternates: { canonical: "/contact" },
 };
 

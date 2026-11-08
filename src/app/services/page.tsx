@@ -6,7 +6,7 @@ import { engagements, faqs, services } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "How a Webtextit project runs: discovery, design, engineering, launch, and care.",
+    "How a WebText IT project runs: discovery, design, engineering, launch, and care.",
   alternates: { canonical: "/services" },
 };
 
@@ -15,7 +15,7 @@ export default function ServicesPage() {
     <>
       <PageHeader eyebrow="Services" title="The work around the product.">
         <p>
-          Webtextit sells software, and the service that gets it into daily use. Discovery,
+          WebText IT sells software, and the service that gets it into daily use. Discovery,
           design, engineering, launch, and care are how a project moves, whether the result is
           an app, a website, an ERP, a CMS, or a SaaS product.
         </p>

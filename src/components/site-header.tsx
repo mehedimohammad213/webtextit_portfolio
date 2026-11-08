@@ -18,8 +18,8 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-paper/90 backdrop-blur-md">
       <div className="h-1 bg-signal" />
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-5 sm:px-8">
-        <Logo />
+      <div className="mx-auto flex h-[4.5rem] max-w-6xl items-center justify-between gap-4 px-5 sm:px-8">
+        <Logo className="h-12 w-12 sm:h-14 sm:w-14" priority />
         <nav className="hidden items-center gap-7 md:flex" aria-label="Primary">
           {nav.map((item) => (
             <Link

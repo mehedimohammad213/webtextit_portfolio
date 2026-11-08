@@ -7,7 +7,7 @@ import { principles, products } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Webtextit is a software company that designs, builds, and supports apps, websites, custom software, ERP, CMS, and SaaS.",
+    "WebText IT is a software company that designs, builds, and supports apps, websites, custom software, ERP, CMS, and SaaS.",
   alternates: { canonical: "/about" },
 };
 
@@ -16,7 +16,7 @@ export default function AboutPage() {
     <>
       <PageHeader eyebrow="About" title="A software company that stays through launch.">
         <p>
-          Webtextit designs, builds, and supports the products a business uses to do its work:
+          WebText IT designs, builds, and supports the products a business uses to do its work:
           customer and staff apps, websites, custom software, ERP, content systems, and SaaS.
         </p>
       </PageHeader>

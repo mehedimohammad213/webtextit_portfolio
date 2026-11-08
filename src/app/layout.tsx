@@ -19,14 +19,14 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Webtextit — Software your company can run",
-    template: "%s · Webtextit",
+    default: "WebText IT — Software your company can run",
+    template: `%s · ${site.name}`,
   },
   description: site.description,
   openGraph: {
     type: "website",
     siteName: site.name,
-    title: "Webtextit — Software your company can run",
+    title: "WebText IT — Software your company can run",
     description: site.description,
   },
 };

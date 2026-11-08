@@ -7,7 +7,7 @@ import { examples, getProduct } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Work",
   description:
-    "Examples of the apps, websites, ERP, CMS, and SaaS systems Webtextit designs and delivers.",
+    "Examples of the apps, websites, ERP, CMS, and SaaS systems WebText IT designs and delivers.",
   alternates: { canonical: "/work" },
 };
 
@@ -16,7 +16,7 @@ export default function WorkPage() {
     <>
       <PageHeader eyebrow="Work" title="Examples of the systems we deliver.">
         <p>
-          These describe the kind of software Webtextit puts together. They are not a client
+          These describe the kind of software WebText IT puts together. They are not a client
           list and they do not use another company&apos;s results. If one is close to your
           situation, we can scope a version for your team.
         </p>

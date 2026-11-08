@@ -1,9 +1,10 @@
 export const site = {
-  name: "Webtextit",
+  name: "WebText IT",
+  tagline: "Digital Solutions for Business",
   url: "https://webtextit.com",
   email: "hello@webtextit.com",
   description:
-    "Webtextit is a software company. We design, build, and support apps, websites, custom software, ERP, CMS, and SaaS products.",
+    "WebText IT is a software company. We design, build, and support apps, websites, custom software, ERP, CMS, and SaaS products.",
 };
 
 export const nav = [

@@ -15,14 +15,14 @@ export function SystemBoard() {
     <figure className="relative">
       <div
         aria-hidden="true"
-        className="absolute -left-8 top-12 -z-10 hidden h-28 w-28 rounded-full bg-[#f0d2c4] sm:block"
+        className="absolute -left-8 top-12 -z-10 hidden h-28 w-28 rounded-full bg-[#c5d8f5] sm:block"
       />
-      <div className="rounded-[1.4rem] border border-line bg-card p-4 shadow-[0_30px_70px_-36px_rgba(26,22,18,0.55)] sm:p-5">
+      <div className="rounded-[1.4rem] border border-line bg-card p-4 shadow-[0_30px_70px_-36px_rgba(0,24,72,0.45)] sm:p-5">
         <div className="flex items-center justify-between gap-3">
           <div className="flex items-center gap-2" aria-hidden="true">
-            <span className="h-2.5 w-2.5 rounded-full bg-[#e7b2a2]" />
-            <span className="h-2.5 w-2.5 rounded-full bg-[#ead7a2]" />
-            <span className="h-2.5 w-2.5 rounded-full bg-[#b7cbb8]" />
+            <span className="h-2.5 w-2.5 rounded-full bg-[#7eb0ef]" />
+            <span className="h-2.5 w-2.5 rounded-full bg-[#4aa3ff]" />
+            <span className="h-2.5 w-2.5 rounded-full bg-[#0060d8]" />
           </div>
           <p className="text-xs font-medium tracking-wide text-muted">Sample workspace</p>
         </div>

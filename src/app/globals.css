@@ -6,14 +6,14 @@
 }
 
 @theme {
-  --color-ink: #1a1612;
-  --color-paper: #f3efe6;
-  --color-card: #fffdf8;
-  --color-signal: #d64115;
-  --color-pine: #214237;
-  --color-sand: #e4dccf;
-  --color-line: #ddd4c4;
-  --color-muted: #5c564e;
+  --color-ink: #001848;
+  --color-paper: #f3f7fc;
+  --color-card: #ffffff;
+  --color-signal: #0060d8;
+  --color-pine: #002868;
+  --color-sand: #d8e0f0;
+  --color-line: #c5d0e4;
+  --color-muted: #4a5c78;
   --color-danger: #8f2d0e;
 }
 
@@ -22,13 +22,16 @@ html {
 }
 
 body {
-  background: var(--color-paper);
+  background:
+    radial-gradient(ellipse 70% 45% at 100% -10%, #cfe0f8 0%, transparent 55%),
+    radial-gradient(ellipse 55% 40% at -5% 5%, #e2ebf8 0%, transparent 50%),
+    var(--color-paper);
   color: var(--color-ink);
 }
 
 ::selection {
-  background: #f0cfc3;
-  color: #1a1612;
+  background: #c5d8f5;
+  color: #001848;
 }
 
 :focus-visible {

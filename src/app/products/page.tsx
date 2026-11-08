@@ -7,7 +7,7 @@ import { products } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Products",
   description:
-    "Apps, websites, custom software, ERP, CMS, and SaaS products from Webtextit.",
+    "Apps, websites, custom software, ERP, CMS, and SaaS products from WebText IT.",
   alternates: { canonical: "/products" },
 };
 

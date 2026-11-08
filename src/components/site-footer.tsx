@@ -7,9 +7,9 @@ export function SiteFooter() {
     <footer className="border-t border-line bg-paper">
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-12">
         <div className="md:col-span-5">
-          <Logo />
+          <Logo className="h-16 w-16" />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">
-            Webtextit designs, builds, and supports software products: apps,
+            WebText IT designs, builds, and supports software products: apps,
             websites, custom software, ERP, CMS, and SaaS.
           </p>
         </div>
@@ -52,7 +52,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-line">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-5 text-sm text-muted sm:flex-row sm:items-center sm:justify-between sm:px-8">
-          <p>© 2026 Webtextit</p>
+          <p>© 2026 WebText IT</p>
           <p>Apps, web, software, ERP, CMS, and SaaS.</p>
         </div>
       </div>

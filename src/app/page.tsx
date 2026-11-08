@@ -17,14 +17,14 @@ export default function Home() {
       <section className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.15fr_0.85fr] lg:py-24">
         <div>
           <p className="text-sm font-medium uppercase tracking-[0.16em] text-pine">
-            Software company
+            WebText IT · Digital Solutions for Business
           </p>
           <h1 className="mt-4 font-display text-[clamp(3rem,7vw,5.4rem)] leading-[0.96] tracking-tight">
             Software your company
             <span className="block italic text-pine">can actually run.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
-            Webtextit designs and builds apps, websites, custom software, ERP, CMS, and SaaS.
+            WebText IT designs and builds apps, websites, custom software, ERP, CMS, and SaaS.
             We scope the work, ship the product, and leave your team able to use it.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -61,7 +61,7 @@ export default function Home() {
             id="products-heading"
             className="mt-3 font-display text-4xl leading-tight tracking-tight md:text-5xl"
           >
-            What Webtextit sells and builds.
+            What WebText IT sells and builds.
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted">
             Six lines of work, plus the software that sits next to them: integrations, portals,
@@ -126,7 +126,7 @@ export default function Home() {
               Systems we put together.
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted">
-              Examples of the kind of software Webtextit delivers. They describe the work, not a client list.
+              Examples of the kind of software WebText IT delivers. They describe the work, not a client list.
             </p>
           </div>
           <Link href="/work" className={buttonClass.secondary}>
